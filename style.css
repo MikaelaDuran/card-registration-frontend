@@ -1,0 +1,42 @@
+body {
+  font-family: "Noto Serif KR", serif !important;
+}
+.navbar-color {
+  background: linear-gradient(135deg, #e6f0f7, #4a7795, #e6f0f7);
+}
+
+.fake-card {
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(135deg, #c7e6fb, #4a7795);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-number {
+  font-size: 20px;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.form-card {
+  width: 350px;
+}
+
+#dateResult {
+  min-height: 24px;
+  font-weight: 500;
+}
+
+#statusMessage {
+  min-height: 24px;
+  font-weight: 500;
+}

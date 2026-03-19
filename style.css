@@ -1,8 +1,17 @@
 body {
   font-family: "Noto Serif KR", serif !important;
+  background: linear-gradient(135deg, #c6e3f6, #ffffff, #c6e3f6) !important;
 }
-.navbar-color {
-  background: linear-gradient(135deg, #e6f0f7, #4a7795, #e6f0f7);
+
+footer {
+  background: transparent;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .fake-card {

@@ -12,7 +12,6 @@ body {
     background-color: #003153 !important;
 }
 
-/* 모바일에서 날짜 숨기기 */
 @media (max-width: 768px) {
     .hide-on-mobile {
         display: none;

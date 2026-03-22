@@ -1,0 +1,25 @@
+body {
+    font-family: "Noto Serif KR", serif !important;
+    background: linear-gradient(135deg, #c6e3f6, #ffffff, #c6e3f6) !important;
+    min-height: 100vh;
+}
+
+.dashboard-wrapper {
+    border-top: 5px solid #003153;
+}
+
+.table thead {
+    background-color: #003153 !important;
+}
+
+/* 모바일에서 날짜 숨기기 */
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+.badge {
+    font-size: 0.85rem;
+    padding: 0.5em 0.8em;
+}

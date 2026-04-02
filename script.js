@@ -122,7 +122,7 @@ cardForm.addEventListener("submit", async function (event) {
 
   try {
     // Skickar POST-request till backend
-    const response = await fetch("http://localhost:8080/cards/register", {
+    const response = await fetch("http://localhost:30080/cards/register", {
       method: "POST",
       headers: {
         "Content-Type": "application/json", // talar om att vi skickar JSON

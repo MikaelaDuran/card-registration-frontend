@@ -6,7 +6,7 @@ let itemsShown = 10;
 
 async function fetchCards() {
   try {
-    const response = await fetch("http://localhost:8080/cards");
+    const response = await fetch("http://localhost:30081/cards");
 
     if (!response.ok) {
       throw new Error(
